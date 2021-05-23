@@ -26,6 +26,7 @@ import settings from "./assets/settings.png";
 import thunder from "./assets/thunder.png";
 import stack from "./assets/stack.png";
 import fuel from "./assets/fuel.png";
+import roadmap from "./assets/roadmap.png";
 
 // function Example(props) {
 //   var items = [
@@ -367,6 +368,12 @@ function Main() {
           ))}
         </Carousel>
       </div>
+      <img
+        className="road-map-image"
+        src={roadmap}
+        alt="no"
+        style={{ width: "100vw", height: "100vh" }}
+      />
       <div className="community" style={{ marginTop: "80px" }}>
         <center>
           <div style={{ color: "white", fontSize: "40px" }}>
