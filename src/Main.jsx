@@ -14,6 +14,12 @@ import twitter from "./assets/twitter.png";
 import reddit from "./assets/reddit.png";
 import tiktok from "./assets/tiktok.png";
 import telegram from "./assets/telegram.png";
+import instahome from "./assets/instagram.png";
+import reddithome from "./assets/reddit (2).png";
+import telegramhome from "./assets/telegram (2).png";
+import tiktokhome from "./assets/tiktok2.png";
+import twitterhome from "./assets/twitter (2).png";
+import discordhome from "./assets/discord (2).png";
 
 // function Example(props) {
 //   var items = [
@@ -78,7 +84,7 @@ function Main() {
           <img
             src={laptop}
             alt="no img"
-            style={{ width: "1000px", height: "700px" }}
+            style={{ width: "760px", height: "650px" }}
           />
         </div>
         <div className="headers">
@@ -87,8 +93,8 @@ function Main() {
               style={{
                 color: "#C8C8C8",
                 fontSize: "78px",
-                fontWeight: "900",
-                wordSpacing: "10px",
+                fontFamily:"Anton",
+                lineHeight:"100px"
               }}
             >
               <span style={{ color: "#CB6CE6" }}>CrossChain</span>
@@ -100,7 +106,7 @@ function Main() {
               style={{
                 color: "#A7A7A7",
                 fontSize: "24px",
-                fontWeight: "light",
+                fontFamily:"PT Sans Narrow",
                 marginTop: "20px",
               }}
             >
@@ -123,9 +129,62 @@ function Main() {
         <center>
           <div className="white-paper-phone">White paper</div>
         </center>
+        <div className="links"
+              style={{
+                marginRight:"30px",
+                display:"flex",
+                float:"right",
+              }}
+            >
+
+            <a href="https://instagram.com/dexifyhq" target="blank">
+              <img
+                src={instahome}
+                alt="no"
+                style={{ width: "40px", height: "40px", padding: "8px" }}
+              />
+            </a>
+
+            <a href="https://instagram.com/dexifyhq" target="blank">
+              <img
+                src={reddithome}
+                alt="no"
+                style={{ width: "40px", height: "40px", padding: "8px" }}
+              />
+            </a>
+            <a href="https://instagram.com/dexifyhq" target="blank">
+              <img
+                src={telegramhome}
+                alt="no"
+                style={{ width: "40px", height: "40px", padding: "8px" }}
+              />
+            </a>
+            <a href="https://instagram.com/dexifyhq" target="blank">
+              <img
+                src={discordhome}
+                alt="no"
+                style={{ width: "40px", height: "40px", padding: "8px" }}
+              />
+            </a>
+            <a href="https://instagram.com/dexifyhq" target="blank">
+              <img
+                src={twitterhome}
+                alt="no"
+                style={{ width: "40px", height: "40px", padding: "8px" }}
+              />
+            </a>
+            <a href="https://instagram.com/dexifyhq" target="blank">
+              <img
+                src={tiktokhome}
+                alt="no"
+                style={{ width: "40px", height: "40px", padding: "8px" }}
+              />
+            </a>
+
+        </div>
       </div>
       <div className="features-section">
-        <div className="feature-heading">Dexify features</div>
+        <div className="feature-heading"> <span style={{ color: "#CB6CE6" }}>Dexify </span>features</div>
 
         <div className="feature-content">
           <div className="feature-left">
@@ -134,12 +193,13 @@ function Main() {
                 <img
                   src={fone}
                   alt="no"
-                  style={{ width: "80px", height: "80px" }}
+                  style={{ width: "40px", height: "40px" }}
                 />
               </div>
               <div className="feature-point">
-                <div className="feature-point-head">this is heading</div>
-                <div className="feature-point-para">this is paragraph</div>
+                <div className="feature-point-head">Smart Mirror Contracts</div>
+                <div className="feature-point-para">
+Automated Smart Mirror Contracts called Dexfund ran by Dexfund Managers </div>
               </div>
             </div>
             <div className="each-feature">
@@ -147,12 +207,13 @@ function Main() {
                 <img
                   src={fone}
                   alt="no"
-                  style={{ width: "80px", height: "80px" }}
+                  style={{ width: "40px", height: "40px" }}
                 />
               </div>
               <div className="feature-point">
-                <div className="feature-point-head">this is heading</div>
-                <div className="feature-point-para">this is paragraph</div>
+                <div className="feature-point-head">Asset management industry </div>
+                <div className="feature-point-para">
+Revolutionising the asset management industry as all transactions on blockchain are now visible. Trustworthy, asset management with no barriers to entry. </div>
               </div>
             </div>
             <div className="each-feature">
