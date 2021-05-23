@@ -235,11 +235,13 @@ body {
   display: flex;
   /* background: chartreuse; */
   justify-content: center;
-  /* align-items: center; */
+  /* align-items: flex-start; */
+  min-height: 60vh;
 
   width: 60%;
   height: 80%;
   margin-top: 40px;
+  margin-left: 10vw;
 }
 
 .feature-left {
@@ -284,6 +286,7 @@ body {
   background: url("./assets/bg2.png");
   background-size: cover;
   background-position: center;
+  display: none;
 
   background-repeat: no-repeat;
   padding-top: 40px;
@@ -295,6 +298,16 @@ body {
   width: 60vw;
   flex-wrap: wrap;
   align-items: center;
+}
+
+@media (max-width: 575px) {
+  .roadmap {
+    display: block;
+  }
+
+  .road-map-image {
+    display: none;
+  }
 }
 
 @media (max-width: 1040px) {
