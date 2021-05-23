@@ -20,6 +20,12 @@ import telegramhome from "./assets/telegram (2).png";
 import tiktokhome from "./assets/tiktok2.png";
 import twitterhome from "./assets/twitter (2).png";
 import discordhome from "./assets/discord (2).png";
+import people from "./assets/people.png";
+import badge from "./assets/badge.png";
+import settings from "./assets/settings.png";
+import thunder from "./assets/thunder.png";
+import stack from "./assets/stack.png";
+import fuel from "./assets/fuel.png";
 
 // function Example(props) {
 //   var items = [
@@ -57,12 +63,28 @@ import discordhome from "./assets/discord (2).png";
 function Main() {
   var items = [
     {
+      name: "May/June 2021",
+      description:
+        "Users pay a base entry fee to enter a Dexfund which we split with the Dexfund Manager. Dexfund managers also gain % of the profits the Dexfund investors gain.",
+    },
+    {
       name: "June 2021",
       description: "Probably the most random thing you have ever seen!",
     },
     {
-      name: "Random Name #2",
-      description: "Hello World!",
+      name: "July- 2021",
+      description:
+        "Onboard more blockchains, increase exchange listings, improve UI from beta feedback, create Dexify’s own Defi indexfunds with own LP.",
+    },
+    {
+      name: "2021",
+      description:
+        "V2 of the platform launch, cross chain mirroring live onboarding Tron,Polkastarter, Solana etc. Increase number of features. Scope to add more features to the platform such as NFT marketplace, staking and farming rewards, lottery and more. ",
+    },
+    {
+      name: "2021",
+      description:
+        " Increase LP’s used to grow the volume inflow to the platform, increase market outreach to Africa,ASIA and USA.",
     },
   ];
   return (
@@ -93,8 +115,8 @@ function Main() {
               style={{
                 color: "#C8C8C8",
                 fontSize: "78px",
-                fontFamily:"Anton",
-                lineHeight:"100px"
+                fontFamily: "Anton",
+                lineHeight: "100px",
               }}
             >
               <span style={{ color: "#CB6CE6" }}>CrossChain</span>
@@ -106,7 +128,7 @@ function Main() {
               style={{
                 color: "#A7A7A7",
                 fontSize: "24px",
-                fontFamily:"PT Sans Narrow",
+                fontFamily: "PT Sans Narrow",
                 marginTop: "20px",
               }}
             >
@@ -129,14 +151,8 @@ function Main() {
         <center>
           <div className="white-paper-phone">White paper</div>
         </center>
-        <div className="links"
-              style={{
-                marginRight:"30px",
-                display:"flex",
-                float:"right",
-              }}
-            >
-
+        <div style={{ width: "100%", height: "100%" }}>
+          <div className="links">
             <a href="https://instagram.com/dexifyhq" target="blank">
               <img
                 src={instahome}
@@ -180,11 +196,17 @@ function Main() {
                 style={{ width: "40px", height: "40px", padding: "8px" }}
               />
             </a>
-
+          </div>
         </div>
       </div>
       <div className="features-section">
-        <div className="feature-heading"> <span style={{ color: "#CB6CE6" }}>Dexify </span>features</div>
+        <div className="feature-heading">
+          {" "}
+          <center>
+            {" "}
+            <span style={{ color: "#CB6CE6" }}>Dexify </span>features
+          </center>
+        </div>
 
         <div className="feature-content">
           <div className="feature-left">
@@ -197,44 +219,48 @@ function Main() {
                 />
               </div>
               <div className="feature-point">
-                <div className="feature-point-head">Smart Mirror Contracts</div>
-                <div className="feature-point-para">
-Automated Smart Mirror Contracts called Dexfund ran by Dexfund Managers </div>
+                <div className="feature-point-head">this is heading</div>
+                <div className="feature-point-para">this is heading </div>
               </div>
             </div>
             <div className="each-feature">
               <div className="feature-img-div">
                 <img
-                  src={fone}
+                  src={people}
                   alt="no"
                   style={{ width: "40px", height: "40px" }}
                 />
               </div>
               <div className="feature-point">
-                <div className="feature-point-head">Asset management industry </div>
+                <div className="feature-point-head">
+                  Asset management industry{" "}
+                </div>
                 <div className="feature-point-para">
-Revolutionising the asset management industry as all transactions on blockchain are now visible. Trustworthy, asset management with no barriers to entry. </div>
+                  Revolutionising the asset management industry as all
+                  transactions on blockchain are now visible. Trustworthy, asset
+                  management with no barriers to entry.{" "}
+                </div>
               </div>
             </div>
             <div className="each-feature">
               <div className="feature-img-div">
                 <img
-                  src={fone}
+                  src={people}
                   alt="no"
-                  style={{ width: "80px", height: "80px" }}
+                  style={{ width: "40px", height: "40px" }}
                 />
               </div>
               <div className="feature-point">
                 <div className="feature-point-head">this is heading</div>
-                <div className="feature-point-para">this is paragraph</div>
+                <div className="feature-point-para">this is heading</div>
               </div>
             </div>
             <div className="each-feature">
               <div className="feature-img-div">
                 <img
-                  src={fone}
+                  src={badge}
                   alt="no"
-                  style={{ width: "80px", height: "80px" }}
+                  style={{ width: "40px", height: "50px" }}
                 />
               </div>
               <div className="feature-point">
@@ -247,9 +273,9 @@ Revolutionising the asset management industry as all transactions on blockchain 
             <div className="each-feature">
               <div className="feature-img-div">
                 <img
-                  src={fone}
+                  src={settings}
                   alt="no"
-                  style={{ width: "80px", height: "80px" }}
+                  style={{ width: "40px", height: "40px" }}
                 />
               </div>
               <div className="feature-point">
@@ -260,9 +286,9 @@ Revolutionising the asset management industry as all transactions on blockchain 
             <div className="each-feature">
               <div className="feature-img-div">
                 <img
-                  src={fone}
+                  src={thunder}
                   alt="no"
-                  style={{ width: "80px", height: "80px" }}
+                  style={{ width: "40px", height: "40px" }}
                 />
               </div>
               <div className="feature-point">
@@ -273,9 +299,9 @@ Revolutionising the asset management industry as all transactions on blockchain 
             <div className="each-feature">
               <div className="feature-img-div">
                 <img
-                  src={fone}
+                  src={fuel}
                   alt="no"
-                  style={{ width: "80px", height: "80px" }}
+                  style={{ width: "40px", height: "40px" }}
                 />
               </div>
               <div className="feature-point">
@@ -286,9 +312,9 @@ Revolutionising the asset management industry as all transactions on blockchain 
             <div className="each-feature">
               <div className="feature-img-div">
                 <img
-                  src={fone}
+                  src={stack}
                   alt="no"
-                  style={{ width: "80px", height: "80px" }}
+                  style={{ width: "40px", height: "40px" }}
                 />
               </div>
               <div className="feature-point">
@@ -456,7 +482,9 @@ Revolutionising the asset management industry as all transactions on blockchain 
         </div>
       </div>
       <center>
-        <div style={{ color: "white" }}>&copy; Copyright 2021</div>
+        <div style={{ color: "white" }}>
+          &copy; Alphr finance. All rights reserved.
+        </div>
       </center>
     </div>
   );
