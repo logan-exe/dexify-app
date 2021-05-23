@@ -8,13 +8,13 @@ import Carousel from "react-material-ui-carousel";
 import { Paper, Button } from "@material-ui/icons/FiberManualRecord";
 import dot from "./assets/dot.png";
 import line from "./assets/line.png";
-import insta from "./assets/insta.png";
-import discord from "./assets/discord.png";
-import twitter from "./assets/twitter.png";
-import reddit from "./assets/reddit.png";
-import tiktok from "./assets/tiktok.png";
-import telegram from "./assets/telegram.png";
-import instahome from "./assets/instagram.png";
+import insta from "./assets/instaf.png";
+import discord from "./assets/discordf.png";
+import twitter from "./assets/twitterf.png";
+import reddit from "./assets/redditf.png";
+import tiktok from "./assets/tiktokf.png";
+import telegram from "./assets/telegramf.png";
+import instahome from "./assets/insta.png";
 import reddithome from "./assets/reddit (2).png";
 import telegramhome from "./assets/telegram (2).png";
 import tiktokhome from "./assets/tiktok2.png";
@@ -27,6 +27,7 @@ import thunder from "./assets/thunder.png";
 import stack from "./assets/stack.png";
 import fuel from "./assets/fuel.png";
 import roadmap from "./assets/roadmap.png";
+import footerbg from "./assets/footer-bg.png";
 
 // function Example(props) {
 //   var items = [
@@ -205,7 +206,7 @@ function Main() {
           {" "}
           <center>
             {" "}
-            <span style={{ color: "#CB6CE6" }}>Dexify </span>features
+            <span style={{ color: "#CB6CE6"}}>Dexify </span>features
           </center>
         </div>
 
@@ -293,7 +294,7 @@ Users pay a base entry fee to enter a Dexfund which we split with the Dexfund Ma
                 />
               </div>
               <div className="feature-point">
-                <div className="feature-point-head">Risk Score</div>
+                <div className="feature-point-head" >Risk Score</div>
                 <div className="feature-point-para">Each Dexfund has a Risk Score, PnL, number of users and time of creation.</div>
               </div>
             </div>
@@ -325,11 +326,15 @@ Users pay a base entry fee to enter a Dexfund which we split with the Dexfund Ma
             </div>
           </div>
         </div>
-      </div>
+      </div>  <center className="big-road" style={{ display:"flex", justifyContent:"center", width:"100vw",  marginBottom:"100px"}}>
+          <div className="feature-heading" style={{ color:"white", zIndex:"100", position:"absolute", paddingTop:"0px"}}>
+          <span style={{ color: "#CB6CE6" }}>   Road</span> Map
+          </div>
+        </center>
       <div className="roadmap">
-        <center>
+      <center>
           <div className="feature-heading" style={{ marginBottom: "40px" }}>
-            Road Map
+          <span style={{ color: "#CB6CE6" }}>  Road</span> Map
           </div>
         </center>
         <img
@@ -356,11 +361,11 @@ Users pay a base entry fee to enter a Dexfund which we split with the Dexfund Ma
                   style={{ width: "40px", height: "40px" }}
                 />
                 <div
-                  style={{ color: "white", fontSize: "40px", width: "150px" }}
+                  style={{ color: "white", fontSize: "40px", width: "150px", fontFamily:"gemunu"}}
                 >
                   {item.name}
                 </div>
-                <div style={{ color: "white", width: "200px" }}>
+                <div style={{ color: "white", width: "200px" ,fontSize: "15px", fontFamily:"gemunulight", color:"grey"}}>
                   {item.description}
                 </div>
               </div>
@@ -368,6 +373,7 @@ Users pay a base entry fee to enter a Dexfund which we split with the Dexfund Ma
           ))}
         </Carousel>
       </div>
+      <div className="footer-section">
       <img
         className="road-map-image"
         src={roadmap}
@@ -376,10 +382,10 @@ Users pay a base entry fee to enter a Dexfund which we split with the Dexfund Ma
       />
       <div className="community" style={{ marginTop: "80px" }}>
         <center>
-          <div style={{ color: "white", fontSize: "40px" }}>
+          <div style={{ color: "white", fontSize: "40px", fontFamily: "gemunu"}}>
             Join our community to get
           </div>
-          <div style={{ color: "#cb6ce6", fontSize: "40px" }}>
+          <div style={{ color: "#cb6ce6", fontSize: "40px", fontFamily: "gemunu"}}>
             {" "}
             Advance booking and discounts
           </div>
@@ -412,7 +418,7 @@ Users pay a base entry fee to enter a Dexfund which we split with the Dexfund Ma
           </div>
         </center>
       </div>
-      <div className="footer" style={{ color: "white", marginTop: "60px" }}>
+      <div className="footer" style={{ color: "white", marginTop: "160px" }}>
         <center
           style={{
             display: "flex",
@@ -420,15 +426,15 @@ Users pay a base entry fee to enter a Dexfund which we split with the Dexfund Ma
             fontSize: "40px",
           }}
         >
-          <div>
-            The <span style={{ color: "#cb6ce6" }}>Dexify</span> Community
+          <div style={{fontFamily: "gemunu"}}>
+            The <span style={{ color: "#cb6ce6", fontFamily: "gemunu"}}>Dexify</span> Community
           </div>
         </center>
         <center
           style={{ marginTop: "40px", fontSize: "18px", padding: "20px" }}
         >
           {" "}
-          <div>
+          <div style={{fontFamily: "gemunulight", color:"grey"}}>
             Learn more about Alphr, chat with our team, others in the community
             and have your say in the shaping of the Alphr platform.
           </div>
@@ -446,35 +452,35 @@ Users pay a base entry fee to enter a Dexfund which we split with the Dexfund Ma
               <img
                 src={insta}
                 alt="no"
-                style={{ width: "80px", height: "80px", padding: "8px" }}
+                style={{ width: "110px", height: "120px", padding: "8px" }}
               />
             </a>
             <a href="https://www.reddit.com/r/DEXIFYHQ" target="blank">
               <img
                 src={reddit}
                 alt="no"
-                style={{ width: "80px", height: "80px", padding: "8px" }}
+                style={{ width: "110px", height: "120px", padding: "8px" }}
               />
             </a>
             <a href="https://twitter.com/dexifyhq" target="blank">
               <img
                 src={twitter}
                 alt="no"
-                style={{ width: "80px", height: "80px", padding: "8px" }}
+                style={{ width: "110px", height: "120px", padding: "8px" }}
               />
             </a>
             <a href="https://vm.tiktok.com/ZMesbhcmS/" target="blank">
               <img
                 src={tiktok}
                 alt="no"
-                style={{ width: "80px", height: "80px", padding: "8px" }}
+                style={{ width: "110px", height: "120px", padding: "8px" }}
               />
             </a>
             <a href="https://discord.gg/hvhEvNU3" target="blank">
               <img
                 src={discord}
                 alt="no"
-                style={{ width: "80px", height: "80px", padding: "8px" }}
+                style={{ width: "110px", height: "120px", padding: "8px" }}
               />
             </a>
 
@@ -482,14 +488,15 @@ Users pay a base entry fee to enter a Dexfund which we split with the Dexfund Ma
               <img
                 src={telegram}
                 alt="no"
-                style={{ width: "80px", height: "80px", padding: "8px" }}
+                style={{ width: "110px", height: "120px", padding: "8px" }}
               />
             </a>
           </div>
         </div>
       </div>
+      </div>
       <center>
-        <div style={{ color: "white" }}>
+        <div style={{fontFamily: "gemunulight", color:"grey", paddingBottom:"50px"}}>
           &copy; Alphr finance. All rights reserved.
         </div>
       </center>

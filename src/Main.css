@@ -236,11 +236,11 @@ body {
   /* background: chartreuse; */
   justify-content: center;
   /* align-items: flex-start; */
-  min-height: 60vh;
+  min-height: 80vh;
 
   width: 60%;
   height: 80%;
-  margin-top: 40px;
+  margin-top: 90px;
   margin-left: 10vw;
 }
 
@@ -254,6 +254,9 @@ body {
 .each-feature {
   display: flex;
   padding: 10px;
+  min-width: 200px;
+  /* padding-bottom: 80px;*/
+  height: 100px;
 }
 .feature-point-head {
   font-size: 26px;
@@ -273,6 +276,11 @@ body {
 }
 
 @media (max-width: 620px) {
+  /* .each-feature
+  {
+    padding-bottom: 150px!important; 
+ 
+  } */
   .feature-content {
     display: flex;
     flex-direction: column;
@@ -308,6 +316,10 @@ body {
   .road-map-image {
     display: none;
   }
+  .big-road
+  {
+    display: none!important;
+  }
 }
 
 @media (max-width: 1040px) {
@@ -317,4 +329,11 @@ body {
     justify-content: center;
     align-items: center;
   }
+}
+
+.footer-section
+{
+  background: url('./assets/footer-bg.png');
+  background-size: cover;
+  background-position: center;
 }
