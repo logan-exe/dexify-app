@@ -161,35 +161,35 @@ function Main() {
               />
             </a>
 
-            <a href="https://instagram.com/dexifyhq" target="blank">
+            <a href="https://www.reddit.com/r/DEXIFYHQ" target="blank">
               <img
                 src={reddithome}
                 alt="no"
                 style={{ width: "40px", height: "40px", padding: "8px" }}
               />
             </a>
-            <a href="https://instagram.com/dexifyhq" target="blank">
+            <a href="https://t.me/DEXIFYHQ" target="blank">
               <img
                 src={telegramhome}
                 alt="no"
                 style={{ width: "40px", height: "40px", padding: "8px" }}
               />
             </a>
-            <a href="https://instagram.com/dexifyhq" target="blank">
+            <a href="https://discord.gg/hvhEvNU3" target="blank">
               <img
                 src={discordhome}
                 alt="no"
                 style={{ width: "40px", height: "40px", padding: "8px" }}
               />
             </a>
-            <a href="https://instagram.com/dexifyhq" target="blank">
+            <a href="https://twitter.com/dexifyhq" target="blank">
               <img
                 src={twitterhome}
                 alt="no"
                 style={{ width: "40px", height: "40px", padding: "8px" }}
               />
             </a>
-            <a href="https://instagram.com/dexifyhq" target="blank">
+            <a href="https://vm.tiktok.com/ZMesbhcmS/" target="blank">
               <img
                 src={tiktokhome}
                 alt="no"
@@ -219,8 +219,8 @@ function Main() {
                 />
               </div>
               <div className="feature-point">
-                <div className="feature-point-head">this is heading</div>
-                <div className="feature-point-para">this is heading </div>
+                <div className="feature-point-head">Smart Mirror Contracts</div>
+                <div className="feature-point-para">Automated Smart Mirror Contracts called Dexfund ran by Dexfund Managers </div>
               </div>
             </div>
             <div className="each-feature">
@@ -233,12 +233,10 @@ function Main() {
               </div>
               <div className="feature-point">
                 <div className="feature-point-head">
-                  Asset management industry{" "}
+                DXFY Token{" "}
                 </div>
                 <div className="feature-point-para">
-                  Revolutionising the asset management industry as all
-                  transactions on blockchain are now visible. Trustworthy, asset
-                  management with no barriers to entry.{" "}
+                $DXFY Token the ecosystem of the project. Pay's fees, rewards Dexfund managers and gives access to better Dexfunds.{" "}
                 </div>
               </div>
             </div>
@@ -251,8 +249,9 @@ function Main() {
                 />
               </div>
               <div className="feature-point">
-                <div className="feature-point-head">this is heading</div>
-                <div className="feature-point-para">this is heading</div>
+                <div className="feature-point-head">Dexfund Manager</div>
+                <div className="feature-point-para">
+Users pay a base entry fee to enter a Dexfund which we split with the Dexfund Manager. Dexfund managers also gain % of the profits the Dexfund investors gain.</div>
               </div>
             </div>
             <div className="each-feature">
@@ -264,8 +263,9 @@ function Main() {
                 />
               </div>
               <div className="feature-point">
-                <div className="feature-point-head">this is heading</div>
-                <div className="feature-point-para">this is paragraph</div>
+                <div className="feature-point-head">user experience</div>
+                <div className="feature-point-para">
+ Revolutionary intuitive trading interface to make Defi user experience much easier from start to finish. </div>
               </div>
             </div>
           </div>
@@ -279,8 +279,8 @@ function Main() {
                 />
               </div>
               <div className="feature-point">
-                <div className="feature-point-head">this is heading</div>
-                <div className="feature-point-para">this is paragraph</div>
+                <div className="feature-point-head">Asset management industry </div>
+                <div className="feature-point-para">Revolutionising the asset management industry as all transactions on blockchain are now visible. Trustworthy, asset management with no barriers to entry. </div>
               </div>
             </div>
             <div className="each-feature">
@@ -292,8 +292,8 @@ function Main() {
                 />
               </div>
               <div className="feature-point">
-                <div className="feature-point-head">this is heading</div>
-                <div className="feature-point-para">this is paragraph</div>
+                <div className="feature-point-head">Risk Score</div>
+                <div className="feature-point-para">Each Dexfund has a Risk Score, PnL, number of users and time of creation.</div>
               </div>
             </div>
             <div className="each-feature">
@@ -305,8 +305,8 @@ function Main() {
                 />
               </div>
               <div className="feature-point">
-                <div className="feature-point-head">this is heading</div>
-                <div className="feature-point-para">this is paragraph</div>
+                <div className="feature-point-head">Save gas fees</div>
+                <div className="feature-point-para">Reduced Gas fees due to pooling of investments, heklping the environment</div>
               </div>
             </div>
             <div className="each-feature">
@@ -318,8 +318,8 @@ function Main() {
                 />
               </div>
               <div className="feature-point">
-                <div className="feature-point-head">this is heading</div>
-                <div className="feature-point-para">this is paragraph</div>
+                <div className="feature-point-head">Cross Chain platform</div>
+                <div className="feature-point-para">Cross Chain platform meaning complete access to a huge variety of tokens and projects for optimal gains.</div>
               </div>
             </div>
           </div>
